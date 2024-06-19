@@ -1,4 +1,4 @@
-import {useMonaco} from '@monaco-editor/react';
+import {loader, useMonaco} from '@monaco-editor/react';
 import {useRef, useEffect} from 'react';
 import {useLaunchQueue} from '../hooks/useLaunchQueue';
 import {useCollab} from '../hooks/useCollab';
@@ -15,6 +15,7 @@ export function useStartup(
   panes: MutableRefObject<PaneviewApi | undefined>,
 ) {
   const shell = useShell();
+  loader.config({ paths: { vs: window.location.href + '/monaco-editor-0.36.1/min/vs' } });
   const monaco = useMonaco();
   const collab = useCollab(shell);
   const launch = useLaunchQueue();
