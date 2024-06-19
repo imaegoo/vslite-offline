@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>StackBlitz</title>
+<script src="/wc/webcontainer.9e2d28a3.js"></script>
+<link rel="preload" as="script" href="/wc/webcontainer.9e2d28a3.js" fetchpriority="low">
+<link rel="preload" as="script" href="/wc/fetch.worker.9e2d28a3.js" fetchpriority="low">
+
+<script src="/wc/assets/vite/headless-BNfRU0p-.js" crossorigin="anonymous" type="module"></script><link rel="modulepreload" href="/wc/assets/vite/semver-Zyv2pDaP.js" as="script" crossorigin="anonymous">
+</head>
+<body>
+<script type="application/json" id="webcontainer-context">{"options":{"baseUrl":"http://localhost:5101/wc","initOptions":{"server":"https://local-corp.webcontainer-api.io","isolationPolicy":"require-corp","version":"9e2d28a3","flattenedServer":false},"systemBinaries":{},"git":{"proxy":"https://p.stackblitz.com"},"turboBaseUrl":"https://t.staticblitz.com","registryProxy":"https://nr.staticblitz.com","registryMaxConcurrency":""},"embedder":"http://localhost:5101/","shortAppId":false}</script>
+
+</body>
+</html>

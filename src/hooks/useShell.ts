@@ -58,6 +58,8 @@ export function useShell(): ShellInstance {
     let storybookUrl = '';
     let storybookPort = -1;
 
+    window.WEBCONTAINER_API_IFRAME_URL = window.location.origin + '/wc/headless';
+
     // Setup shell
     const shell = await WebContainer.boot({workdirName: 'vslite'});
     await shell.fs.writeFile('.jshrc', jshRC);
