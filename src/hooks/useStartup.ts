@@ -15,7 +15,7 @@ export function useStartup(
   panes: MutableRefObject<PaneviewApi | undefined>,
 ) {
   const shell = useShell();
-  loader.config({ paths: { vs: window.location.href + '/monaco-editor-0.36.1/min/vs' } });
+  loader.config({ paths: { vs: window.location.origin + '/monaco-editor-0.36.1/min/vs' } });
   const monaco = useMonaco();
   const collab = useCollab(shell);
   const launch = useLaunchQueue();
